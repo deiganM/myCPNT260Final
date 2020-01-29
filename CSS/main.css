@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css?family=Courgette|Oleo+Script|Satisfy&display=swap');
+
+/* font-family: 'Satisfy', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Oleo Script', cursive; */
+
+/*********************** FONTS ***********************/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul a, img {
+display: block;
+}
+
+nav {
+  height: 100vh;
+}
+
+nav ul {
+  margin: 0;
+  border: 1px black solid;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10vh;
+  list-style: none;
+  padding: 0;
+}
+
+.hero-section {
+  background-image: linear-gradient(rgba(204, 102, 255, 0.3), rgba(204, 102, 255, 0.3)), url("../assets/mountainContrast.jpg");
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+
+.title {
+  text-align: center;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Oleo Script', cursive;
+  font-size: 4rem;
+  } 
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
+    text-align: center;
+    gap: 1rem;
+    background: cyan;
+  }
+
+  .reggie-intro {
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  main p {
+    max-width: 75ch;
+    margin: 1rem 2rem;
+  }
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************** HERO IMAGE ***********************/
+
+
+
+/* Place text in the middle of the image */
+
+/*********************** END OF HERO IMAGE ***********************/
+
+/* main {
+background: yellow;
+
+}
+
+.mainDiv {
+
+}
+
+main h2 {
+text-align: center;
+padding: 20px;
+}
+
+main p {
+margin: 10%;
+margin-top: 0;
+}
+
+.reggieLaying {
+border-radius: 5px;
+}*/
