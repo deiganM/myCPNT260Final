@@ -22,6 +22,7 @@
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 /**
@@ -348,3 +349,24 @@ template {
   display: none;
 }
 
+
+/**
+ * Personal resets
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul a, img {
+display: block;
+}

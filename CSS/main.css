@@ -1,3 +1,4 @@
+/*********************** FONTS ***********************/
 
 @import url('https://fonts.googleapis.com/css?family=Courgette|Oleo+Script|Satisfy&display=swap');
 
@@ -5,23 +6,10 @@
 font-family: 'Courgette', cursive;
 font-family: 'Oleo Script', cursive; */
 
-/*********************** FONTS ***********************/
-
-* {
-  box-sizing: border-box;
-}
+/*********************** TOP NAVIGATION ***********************/
 
 body {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-nav ul a, img {
-display: block;
+  height: 100vh;
 }
 
 nav {
@@ -59,6 +47,8 @@ nav ul {
   font-size: 4rem;
   } 
 
+/*********************** MAIN ***********************/
+
   main {
     display: grid;
     grid-template-columns: 1fr;
@@ -80,6 +70,50 @@ nav ul {
     margin: 1rem 2rem;
   }
 
+/*********************** CONTENT BAND ***********************/
+
+section {
+  background: skyblue;
+}
+
+h1 {
+  margin:0;
+  text-align: center;
+}
+
+.content-band {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 20rem;
+  width: 15rem;
+  background: slategrey;
+  margin: 2rem auto;
+  border: 1px solid black;
+}
+
+.card-img {
+  margin: 1.5rem auto;
+  border: 1px black solid;
+  border-radius: 10px;
+}
+
+.card-text {
+  background: white;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.card-text h3,
+p {
+  margin: 0;
+}
+
+/*********************** IMAGE GALLERY ***********************/
      
 
 
