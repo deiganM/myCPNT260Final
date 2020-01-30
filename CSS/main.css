@@ -84,6 +84,7 @@ h1 {
 .content-band {
   display: flex;
   flex-wrap: wrap;
+  gap: 3rem;
 }
 
 .card {
@@ -114,8 +115,34 @@ p {
 }
 
 /*********************** IMAGE GALLERY ***********************/
-     
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+/* images */
+
+figure {
+  border: 5px #222 solid;
+  display: flex;
+  flex-direction: column;
+  max-width: 270px;
+  margin: auto;
+}
+
+figure img {
+  max-width: 270px;
+  max-height: 200px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  padding: 3px;
+  text-align: center;
+}
 
 
 
