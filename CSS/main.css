@@ -145,6 +145,18 @@ figcaption {
   text-align: center;
 }
 
+/*********************** FORM ***********************/
+
+.form-sec {
+  background: lightgoldenrodyellow;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
 
 
 
