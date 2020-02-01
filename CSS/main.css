@@ -12,6 +12,10 @@ body {
   height: 100vh;
 }
 
+img {
+  display: block;
+}
+
 nav {
   height: 100vh;
   display: flex;
@@ -91,22 +95,25 @@ nav ul {
   background: skyblue;
 }
 
-h1 {
+.family h2 {
   margin:0;
   text-align: center;
+  padding: 2rem;
 }
 
 .content-band {
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
+  justify-content: space-around;
+  padding-bottom: 1rem;
 }
 
 .card {
   height: 20rem;
   width: 15rem;
   background: slategrey;
-  margin: 2rem auto;
+  margin: 0 auto;
   border: 1px solid black;
 }
 
@@ -114,6 +121,8 @@ h1 {
   margin: 1.5rem auto;
   border: 1px black solid;
   border-radius: 10px;
+  height: 150px;
+  width: 200px;
 }
 
 .card-text {
@@ -121,6 +130,7 @@ h1 {
   text-align: center;
   width: 80%;
   margin: auto;
+  padding: .5rem;
   border: 1px solid black;
 }
 
