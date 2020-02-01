@@ -1,10 +1,18 @@
 /*********************** FONTS ***********************/
 
-@import url('https://fonts.googleapis.com/css?family=Courgette|Oleo+Script|Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script|Open+Sans|Roboto&display=swap');
 
-/* font-family: 'Satisfy', cursive;
-font-family: 'Courgette', cursive;
+/* @import url('https://fonts.googleapis.com/css?family=Courgette|Oleo+Script|Satisfy&display=swap'); */
+
+
+/* 
+font-family: 'Roboto', sans-serif;
+
+font-family: 'Open Sans', sans-serif;
+
 font-family: 'Oleo Script', cursive; */
+
+
 
 /*********************** TOP NAVIGATION ***********************/
 
@@ -16,6 +24,12 @@ h2 {
 font-family: 'Oleo Script', cursive;
 font-size: 2.5rem;
 color: #233d4d;
+}
+
+p,
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 
 img {
@@ -125,12 +139,13 @@ nav ul {
   width: 15rem;
   background:#40657c;
   margin: 0 auto;
-  border: 1px solid black;
+  border: 1px solid darkslategrey;
+  border-radius: 5px;
 }
 
 .card-img {
   margin: 1.5rem auto;
-  border: 1px black solid;
+  border: 1px solid darkslategrey;
   border-radius: 10px;
   height: 150px;
   width: 200px;
@@ -142,12 +157,13 @@ nav ul {
   width: 80%;
   margin: auto;
   padding: .5rem;
-  border: 1px solid black;
+  border: 1px solid darkslategrey;
+  border-radius: 5px;
 }
 
 .card-text h3,
 p {
-  margin: 0;
+  margin: 5px;
   color: rgb(38, 39, 39);
 }
 
@@ -189,6 +205,7 @@ figure img {
 figcaption {
   background-color: #222;
   color: #fff;
+  font-family: 'Roboto', sans-serif;
   padding: 10px 3px;
   text-align: center;
 }
@@ -209,9 +226,13 @@ figcaption {
 }
 
 fieldset {
-  border: 1px solid black;
+  border: 3px solid black;
+  border-radius: 10px;
+  background:#FFF444;
   margin: 2rem;
   margin-top: 1rem;
+  padding-top: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 label[for="name"], #name,
@@ -220,6 +241,11 @@ label[for="textArea"], #textArea
 {
   margin: .5rem;
   padding: .5rem;
+}
+
+#name, #email, #textArea {
+  border-radius: 5px;
+  border: 2px darkslategrey solid;
 }
 
 .submit-button {
@@ -260,85 +286,3 @@ footer p {
   height: 2.5rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*********************** HERO IMAGE ***********************/
-
-
-
-/* Place text in the middle of the image */
-
-/*********************** END OF HERO IMAGE ***********************/
-
-/* main {
-background: yellow;
-
-}
-
-.mainDiv {
-
-}
-
-main h2 {
-text-align: center;
-padding: 20px;
-}
-
-main p {
-margin: 10%;
-margin-top: 0;
-}
-
-.reggieLaying {
-border-radius: 5px;
-}*/
