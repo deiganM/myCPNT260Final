@@ -268,22 +268,18 @@ footer p {
 
 /*********************** MEDIA QUERIES ***********************/
 
-@media (min-width: 750px) and (orientation: landscape) { 
+@media (min-width: 750px) , (orientation: landscape) { 
   
   .hamburger-menu {
     display: none;
   }
   
   .cat-icon {
+    height: 5rem;
     position: absolute;
-    left: 327px;
-    top: 93px;
-    height: 7rem;
+    top: -15px;
+    left: 0;
     z-index: 1;
-  }
-
-  nav {
-    position: relative;
   }
 
   nav ul {
@@ -298,6 +294,7 @@ footer p {
     width: 100vw;
     list-style: none;
     padding: 0;
+    position: relative;
   }
 
   nav ul a {
