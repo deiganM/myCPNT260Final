@@ -2,17 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Oleo+Script|Open+Sans|Roboto&display=swap');
 
-/* @import url('https://fonts.googleapis.com/css?family=Courgette|Oleo+Script|Satisfy&display=swap'); */
-
-
-/* 
-font-family: 'Roboto', sans-serif;
-
-font-family: 'Open Sans', sans-serif;
-
-font-family: 'Oleo Script', cursive; */
-
-
 
 /*********************** TOP NAVIGATION ***********************/
 
@@ -42,6 +31,14 @@ nav {
   justify-content: space-between;
 }
 
+ul {
+  display: none;
+}
+
+nav ul a {
+  display: none;
+}
+
 .hamburger-menu {
   height: 5rem;
   padding: 1rem;
@@ -51,20 +48,6 @@ nav {
   height: 5rem;
   padding: 1rem;
 }
-
-nav ul {
-  margin: 0;
-  border: 1px black solid;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 10vh;
-  list-style: none;
-  padding: 0;
-    /* add these in desktop */
-    display: none;
-}
-
 
 .hero-section {
   background-image: linear-gradient(rgba(204, 102, 255, 0.5), rgba(204, 102, 255, 0.2)), url("../assets/mountainContrast.jpg");
@@ -95,7 +78,7 @@ nav ul {
     justify-items: center;
     text-align: center;
     gap: 1rem;
-    /* background: #b5ffe1; */
+    padding-bottom: 2rem;
   }
 
   main, section {
@@ -131,7 +114,7 @@ nav ul {
   flex-wrap: wrap;
   gap: 3rem;
   justify-content: space-around;
-  padding-bottom: 1rem;
+  padding-bottom: 2.5rem;
 }
 
 .card {
@@ -212,13 +195,10 @@ figcaption {
 
 /*********************** FORM ***********************/
 
-.form-sec {
-  /* background: lightgoldenrodyellow; */
-}
-
 .form-container {
   display: grid;
   justify-content: center;
+  padding-bottom: 1rem;
 }
 
 .form-container h2 {
@@ -286,3 +266,54 @@ footer p {
   height: 2.5rem;
 }
 
+/*********************** MEDIA QUERIES ***********************/
+
+@media (min-width: 750px) and (orientation: landscape) { 
+  
+  .hamburger-menu {
+    display: none;
+  }
+  
+  .cat-icon {
+    position: absolute;
+    left: 327px;
+    top: 93px;
+    height: 7rem;
+    z-index: 1;
+  }
+
+  nav {
+    position: relative;
+  }
+
+  nav ul {
+    margin: 0;
+    border: 1px black solid;
+    /* background: rgb(245, 179, 139); */
+    background: rgb(204, 102, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    list-style: none;
+    padding: 0;
+  }
+
+  nav ul a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1rem 1.5rem;
+    display: contents;
+  }
+  
+  main p {
+    font-size: initial;
+    line-height: 1.4rem;
+  }
+
+  .form-container {
+    padding-bottom: 3rem;
+  }
+
+}
