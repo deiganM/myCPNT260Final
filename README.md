@@ -1,6 +1,5 @@
 # myCPNT260Final
 
 ## Credits
- - Cat icon ,
- - Hamburger menu
+ - Cat, hamburger menu, instagram and twitter icons 
    - https://fontawesome.com/license

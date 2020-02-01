@@ -50,7 +50,7 @@ nav ul a {
 }
 
 .hero-section {
-  background-image: linear-gradient(rgba(204, 102, 255, 0.5), rgba(204, 102, 255, 0.2)), url("../assets/mountainContrast.jpg");
+  background-image: linear-gradient(rgba(204, 102, 255, 0.5), rgba(204, 102, 255, 0.2)), url("../assets/main/mountainContrast.jpg");
   
   background-position: center;
   background-repeat: no-repeat;
