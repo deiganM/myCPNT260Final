@@ -184,6 +184,37 @@ fieldset {
   /* align-self: auto; */
 }
 
+/*********************** FOOTER ***********************/
+
+footer {
+  /* height: 20vh; */
+  width: 100vw;
+  background: rgba(204, 102, 255, 0.3);
+  display: flex;
+  justify-content: space-around;
+}
+
+footer p {
+  margin: auto 0; 
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto 0;
+  width: 11rem;
+  padding: 1rem 0;
+}
+
+.instagram {
+  height: 2.5rem;
+}
+
+.twitter {
+  height: 2.5rem;
+}
+
+
 
 
 
