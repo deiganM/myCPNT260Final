@@ -168,10 +168,20 @@ figcaption {
   background: lightgoldenrodyellow;
 }
 
+.form-container {
+  display: grid;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  height: 50vh;
+
+}
+
 fieldset {
   border: none;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+  /* align-self: auto; */
 }
 
 
